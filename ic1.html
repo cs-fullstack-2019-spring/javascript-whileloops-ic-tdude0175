@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Write a While loop that counts down from 10 to 0. Once the counter reches 0 log LIFTOFF!!! to the console</h1>
+<script>
+    var count_down = 11; //if you start at 10,
+                         // ten will be subtracted before appearing
+
+    while(count_down != 0)
+    {
+                                         //if you run console.log first ;
+                                       // 0 will be ignored because while will ignore less than 0.;
+        count_down -=1;             //if you swap the -=1 and console.log console will log first as number then subtract;
+
+        console.log(count_down);
+        if(count_down === 0)           //if is simple way to transparently show lift off, how else could you do it?
+        {
+            console.log("lift off.");
+        }
+    }
+
+</script>
+
+</body>
+</html>

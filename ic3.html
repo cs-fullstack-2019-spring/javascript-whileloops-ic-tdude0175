@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>While</title>
+</head>
+<body>
+<script>
+    //Create a hardcoded/fixed password.
+    // Create a do-while loop that will ask the user to enter the correct password until it matches the hardcoded password.
+    // Once they match alert the user THAT’S CORRECT!!!
+
+    var h_password = "C0d3Cr3w";  // need to build the block first
+
+        do
+            {
+               var u_password = prompt("enter password");        // h password vrs users password
+                if(u_password != h_password)
+                {
+                    console.log("incorrect password, try again");
+                }
+
+            }
+        while(h_password != u_password);
+    if(h_password === u_password)
+    {
+        console.log("Corret password");
+        console.log("You may pass.");                           // won't execute if as long as passwords are different
+    }
+
+
+
+</script>
+
+</body>
+</html>
